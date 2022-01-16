@@ -1,0 +1,18 @@
+Package: ECGR
+Title: ECG Processing For R
+Version: 0.0.1
+Authors@R: 
+    person("Claucio", "Rank Filho", , "clauciorank@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-6058-4197"))
+Description: ECG processing tools for filtering, R peak automatic identification, heart rate measure and simple time-domain HRV Analysis
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Depends: 
+    R (>= 4.1.0), signal, pracma, RHRV
+LazyData: true
+Imports:
+    signal,
+    pracma,
+    RHRV
