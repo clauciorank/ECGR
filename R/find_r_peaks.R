@@ -18,6 +18,9 @@
 find_r_peaks <- function(sample, FCmax = 220, sample_rate = 500, threshold = .2){
   set <- 1/(FCmax/60)
   minpeakdistance_set <- set/(1/sample_rate)
-  peaks <- data.frame(pracma::findpeaks(as.vector(sample), minpeakdistance = minpeakdistance_set, threshold=threshold))
+  peaks <- data.frame(pracma::findpeaks(as.vector(sample), minpeakdistance = minpeakdistance_set, minpeakheight = threshold))
   return(peaks$X2)
 }
+
+
+
