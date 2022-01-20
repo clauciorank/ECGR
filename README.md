@@ -4,7 +4,7 @@
 
 ECGR is a package to process and analyze Electrocardiogram (ECG) with the R language. 
 This package (up to now) provides a simple way for filter signal and identify/visualize 
-R waves, calculate heart rate and some parameters from the time domain of Heart Rate Variability (HRV).
+R peaks, calculate heart rate and some parameters from the time domain of Heart Rate Variability (HRV).
 
 ## Instalation 
 
